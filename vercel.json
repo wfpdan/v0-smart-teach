@@ -1,0 +1,16 @@
+{
+  "crons": [
+    {
+      "path": "/api/vector/update",
+      "schedule": "0 2 * * *"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_MEMBERSTACK_PROJECT_ID": "@memberstack_project_id",
+    "MEMBERSTACK_WEBHOOK_SECRET": "@memberstack_webhook_secret",
+    "NEXT_PUBLIC_SUPABASE_URL": "@supabase_url",
+    "SUPABASE_SERVICE_ROLE_KEY": "@supabase_service_role_key",
+    "SUPABASE_ANON_KEY": "@supabase_anon_key",
+    "OPENAI_API_KEY": "@openai_api_key"
+  }
+}
